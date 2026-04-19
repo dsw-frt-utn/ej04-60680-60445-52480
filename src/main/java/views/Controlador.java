@@ -19,7 +19,7 @@ public class Controlador {
     
     public static double[] calcularConsumos(Map<String, Double> vehiculos){
         double consumoElectricos = 0;
-        double consumoCombustible= 0;
+        double consumoCombustible = 0;
         for(Map.Entry<String, Double> entry : vehiculos.entrySet()){
            double consumo = 0;
            Optional<Vehiculo> vehiculo = Persistencia.getVehiculo(entry.getKey());
