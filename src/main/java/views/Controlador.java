@@ -31,4 +31,8 @@ public class Controlador {
         }
         return new double[] {consumoElectricos, consumoCombustible};
     }
+
+    static void agregarVehiculo(String patente, String nombreMarca, String paisMarca, String modelo, int anio, Double capCarga, String sucursal, VehiculoTipo tipo, double param1, double param2) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
