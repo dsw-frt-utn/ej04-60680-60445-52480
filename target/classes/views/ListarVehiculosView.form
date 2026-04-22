@@ -35,11 +35,8 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jScrollPane1" pref="632" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="calcularConsumos" pref="165" max="32767" attributes="0"/>
-                          <Component id="ListarVehiculosVolverBtn" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace pref="27" max="32767" attributes="0"/>
+                      <Component id="calcularConsumos" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                       <Component id="panel" min="-2" pref="440" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -54,11 +51,7 @@
               <Component id="jScrollPane1" min="-2" pref="181" max="-2" attributes="0"/>
               <EmptySpace pref="16" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="calcularConsumos" min="-2" pref="37" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="ListarVehiculosVolverBtn" min="-2" pref="37" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="calcularConsumos" min="-2" pref="37" max="-2" attributes="0"/>
                   <Component id="panel" min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -181,13 +174,5 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="ListarVehiculosVolverBtn">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Volver"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ListarVehiculosVolverBtnActionPerformed"/>
-      </Events>
-    </Component>
   </SubComponents>
 </Form>

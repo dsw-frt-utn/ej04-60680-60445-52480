@@ -30,8 +30,6 @@
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Component id="IngresarVehiculoVolverBtn" min="-2" pref="116" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="BotonIngresar" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
@@ -172,10 +170,7 @@
                   <Component id="anioTxt" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="21" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="BotonIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="IngresarVehiculoVolverBtn" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
+              <Component id="BotonIngresar" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -309,14 +304,6 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Km por litro"/>
       </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="IngresarVehiculoVolverBtn">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Volver"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IngresarVehiculoVolverBtnActionPerformed"/>
-      </Events>
     </Component>
   </SubComponents>
 </Form>
